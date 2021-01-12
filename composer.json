@@ -1,0 +1,15 @@
+{
+    "name": "valle/php-proyecto-platzi",
+    "description": "Proyecto en base al curso de manejo de datos de platzi",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Francisco Valle",
+            "email": "vallecesco@gmail.com"
+        }
+    ],
+    "require": {}
+}
