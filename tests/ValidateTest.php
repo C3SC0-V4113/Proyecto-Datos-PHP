@@ -28,4 +28,17 @@ class ValidateTest extends TestCase{
         $url=Validate::url('frankjose00@@gmail.com');
         $this->assertFalse($url);
     }
+    /**
+     * Probando el mismo principio de
+     * testing pero con un password
+     * numerico con expresion
+     * regular
+     */
+    public function test_password(){
+        $password=Validate::password('123456');
+        $this->assertTrue($password);
+
+        $password=Validate::password('acdvfdcsxdfg');
+        $this->assertFalse($password);
+    }
 }
